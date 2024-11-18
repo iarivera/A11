@@ -170,7 +170,7 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
-#mobile_menu {
+.slicknav_menu {
 	display: none;
 }
 
@@ -180,9 +180,6 @@ footer p {
 	section h2, aside h2 { font-size: 120%; }
 	#nav_menu {
 		display: block;
-	}
-	#mobile_menu {
-		display: none;
 	}
 	.slicknav_menu {
 		background-color: #800000 !important; 
@@ -215,6 +212,7 @@ footer p {
 		display: block;
 	}
 	.slicknav_menu {
+		display: block;
 		background-color: #800000 !important;
 	}
 }
